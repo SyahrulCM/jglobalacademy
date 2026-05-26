@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: min(1160px, calc(100% - 2rem));
+    width: min(1160px, calc(100% - 2.5rem));
     margin-inline: auto;
 }
 
@@ -120,5 +120,31 @@ body {
         opacity: 1;
         transform: none;
         animation: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: min(100% - 2rem, 1160px);
+    }
+
+    .hero-title {
+        font-size: clamp(2.75rem, 14vw, 4.2rem);
+        line-height: .94;
+    }
+
+    .hero-copy {
+        font-size: 1.05rem;
+        line-height: 1.8;
+    }
+
+    .mobile-stack-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-stack-actions a {
+        justify-content: center;
+        text-align: center;
     }
 }
