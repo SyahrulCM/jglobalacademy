@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    width: min(1160px, calc(100% - 2.5rem));
-    margin-inline: auto;
+    width: min(1160px, calc(100% - 2.5rem)) !important;
+    margin-inline: auto !important;
 }
 
 .bg-brand {
@@ -125,22 +125,23 @@ body {
 
 @media (max-width: 640px) {
     .container {
-        width: min(100% - 2rem, 1160px);
+        width: min(100% - 2rem, 1160px) !important;
+        margin-inline: auto !important;
     }
 
     .hero-title {
-        font-size: clamp(2.75rem, 14vw, 4.2rem);
-        line-height: .94;
+        font-size: clamp(2.45rem, 12vw, 3.8rem) !important;
+        line-height: .96 !important;
     }
 
     .hero-copy {
-        font-size: 1.05rem;
-        line-height: 1.8;
+        font-size: 1rem !important;
+        line-height: 1.75 !important;
     }
 
     .mobile-stack-actions {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
     }
 
     .mobile-stack-actions a {
