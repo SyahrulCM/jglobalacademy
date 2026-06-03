@@ -4,7 +4,7 @@
 
 <main class="py-20">
     <div class="container">
-        <?php section_header('LOWONGAN KERJA', 'Informasi lowongan dari mitra', 'Data lowongan dummy siap diganti dengan informasi kerja sama perusahaan yang valid.'); ?>
+        <?php section_header('LOWONGAN KERJA', 'Informasi lowongan dari mitra', 'Data lowongan siap diganti dengan informasi kerja sama perusahaan yang valid.'); ?>
         <div class="grid gap-6 lg:grid-cols-2">
             <?php foreach ($jobs as $job): render_job_card($job, $site['admin_whatsapp']); endforeach; ?>
         </div>

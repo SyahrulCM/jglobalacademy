@@ -5,7 +5,7 @@
 <main>
     <section class="py-20">
         <div class="container">
-            <?php section_header('GALERI', 'Kegiatan training dan alumni', 'Dokumentasi dummy yang bisa diganti dengan foto kegiatan asli J Global Academy.'); ?>
+            <?php section_header('GALERI', 'Kegiatan training dan alumni', 'Dokumentasi yang bisa diganti dengan foto kegiatan asli J Global Academy.'); ?>
             <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 <?php foreach ($gallery as $item): ?>
                     <figure class="reveal slide-up overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg shadow-slate-950/5">
