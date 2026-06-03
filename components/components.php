@@ -79,8 +79,8 @@ function render_whatsapp_button(array $site): void
 {
     $message = 'Halo admin ' . $site['name'] . ', saya ingin konsultasi program pelatihan.';
     ?>
-    <a class="pulse fixed bottom-6 right-6 z-50 grid size-16 place-items-center rounded-full bg-[#25d366] text-white shadow-2xl transition hover:scale-110" href="<?= e(wa_link($site['admin_whatsapp'], $message)) ?>" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
-        <img class="size-8" src="assets/img/whatsapp.png" alt="" aria-hidden="true">
+    <a class="pulse fixed bottom-6 right-6 z-50 grid size-16 place-items-center overflow-hidden rounded-full bg-transparent shadow-2xl transition hover:scale-110" href="<?= e(wa_link($site['admin_whatsapp'], $message)) ?>" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+        <img class="size-16 rounded-full object-cover" src="assets/img/whatsapp.png" alt="" aria-hidden="true">
     </a>
     <?php
 }
@@ -120,7 +120,7 @@ function render_program_card(array $program, string $siteNumber): void
             </div>
             <div class="grid gap-3 text-sm text-slate-700">
                 <p><strong>Durasi:</strong> <?= e($program['duration']) ?></p>
-                <p><strong>Biaya:</strong> <span class="font-black text-brand"><?= e($program['cost']) ?></span></p>
+                <p><strong>Biaya:</strong> <span class="font-black text-brand">-</span></p>
                 <p><strong>Fasilitas:</strong> <?= e(implode(', ', $program['facilities'])) ?></p>
                 <p><strong>Syarat:</strong> <?= e(implode(', ', $program['requirements'])) ?></p>
             </div>
