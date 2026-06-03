@@ -26,11 +26,7 @@ function render_navbar(array $site, array $navItems, string $active = ''): void
     <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 shadow-sm backdrop-blur-xl">
         <div class="container flex min-h-20 items-center justify-between gap-6">
             <a href="index.php" class="flex items-center gap-3" aria-label="<?= e($site['name']) ?>">
-                <span class="grid size-12 place-items-center rounded-full bg-slate-950 text-2xl font-black italic text-brand shadow-brand ring-2 ring-brand">J</span>
-                <span class="grid leading-tight">
-                    <strong class="text-lg font-black text-slate-950"><?= e($site['name']) ?></strong>
-                    <span class="text-sm font-semibold text-slate-500"><?= e($site['tagline']) ?></span>
-                </span>
+                <img src="assets/img/logo.png" class="w-36 h-auto" alt="Logo <?= e($site['name']) ?>" loading="lazy">
             </a>
             <nav class="hidden items-center gap-7 text-sm font-bold lg:flex" aria-label="Navigasi utama">
                 <?php foreach ($navItems as $item): ?>

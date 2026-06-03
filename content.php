@@ -27,7 +27,7 @@ $programs = [
         'facilities' => ['Modul digital', 'Template campaign', 'Grup komunitas', 'Sertifikat partisipasi'],
         'requirements' => ['Pemula atau pemilik bisnis', 'Memiliki smartphone/laptop', 'Siap praktik', 'Mengisi formulir pendaftaran'],
         'cost' => 'Mulai RM100',
-        'image' => 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80',
+        'image' => 'assets/img/1.jpg',
     ],
     [
         'slug' => 'private-consultation',
@@ -37,7 +37,7 @@ $programs = [
         'facilities' => ['Audit profil', 'Rekomendasi strategi', 'Action plan', 'Follow up singkat'],
         'requirements' => ['Memiliki brand/bisnis', 'Membawa data akun', 'Menentukan target konsultasi', 'Booking jadwal'],
         'cost' => 'Hubungi admin',
-        'image' => 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80',
+        'image' => 'assets/img/3.jpg',
     ],
     [
         'slug' => 'social-media-ads',
@@ -47,7 +47,7 @@ $programs = [
         'facilities' => ['Praktik iklan', 'Studi kasus', 'Checklist optimasi', 'Komunitas diskusi'],
         'requirements' => ['Akun media sosial aktif', 'Budget iklan latihan', 'Laptop disarankan', 'Komitmen tugas mingguan'],
         'cost' => 'Mulai RM250',
-        'image' => 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80',
+        'image' => 'assets/img/2.jpg',
     ],
 ];
 
@@ -113,12 +113,12 @@ $jobs = [
 ];
 
 $gallery = [
-    ['title' => 'Digital marketing workshop', 'image' => 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80'],
-    ['title' => 'Sesi konsultasi bisnis', 'image' => 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80'],
-    ['title' => 'Praktik strategi konten', 'image' => 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=700&q=80'],
-    ['title' => 'Komunitas entrepreneur', 'image' => 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=700&q=80'],
-    ['title' => 'Audit campaign digital', 'image' => 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=700&q=80'],
-    ['title' => 'Kelas ads training', 'image' => 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80'],
+    ['title' => 'Digital marketing workshop', 'image' => 'assets/img/banner.jpg'],
+    ['title' => 'Sesi konsultasi bisnis', 'image' => 'assets/img/1.jpg'],
+    ['title' => 'Praktik strategi konten', 'image' => 'assets/img/3.jpg'],
+    ['title' => 'Komunitas entrepreneur', 'image' => 'assets/img/2.jpg'],
+    ['title' => 'Audit campaign digital', 'image' => 'assets/img/4.jpg'],
+    ['title' => 'Kelas ads training', 'image' => 'assets/img/5.jpg'],
 ];
 
 $team = [

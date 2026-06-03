@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="reveal slide-right rounded-3xl bg-white p-4 shadow-soft">
-                <img class="aspect-[4/3] w-full rounded-2xl object-cover" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" alt="Peserta pelatihan kerja berdiskusi" loading="lazy">
+                <img class="aspect-[4/3] w-full rounded-2xl object-cover" src="assets/img/banner.jpg" alt="Peserta pelatihan kerja berdiskusi" loading="lazy">
             </div>
         </div>
     </section>
