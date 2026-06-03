@@ -26,7 +26,7 @@ $programs = [
         'duration' => '2 hari workshop + mentoring',
         'facilities' => ['Modul digital', 'Template campaign', 'Grup komunitas', 'Sertifikat partisipasi'],
         'requirements' => ['Pemula atau pemilik bisnis', 'Memiliki smartphone/laptop', 'Siap praktik', 'Mengisi formulir pendaftaran'],
-        'cost' => 'Mulai RM100',
+        'cost' => '-',
         'image' => 'assets/img/1.jpg',
     ],
     [
@@ -36,7 +36,7 @@ $programs = [
         'duration' => '1-2 jam per sesi',
         'facilities' => ['Audit profil', 'Rekomendasi strategi', 'Action plan', 'Follow up singkat'],
         'requirements' => ['Memiliki brand/bisnis', 'Membawa data akun', 'Menentukan target konsultasi', 'Booking jadwal'],
-        'cost' => 'Hubungi admin',
+        'cost' => '-',
         'image' => 'assets/img/3.jpg',
     ],
     [
@@ -46,7 +46,7 @@ $programs = [
         'duration' => '4 minggu',
         'facilities' => ['Praktik iklan', 'Studi kasus', 'Checklist optimasi', 'Komunitas diskusi'],
         'requirements' => ['Akun media sosial aktif', 'Budget iklan latihan', 'Laptop disarankan', 'Komitmen tugas mingguan'],
-        'cost' => 'Mulai RM250',
+        'cost' => '-',
         'image' => 'assets/img/2.jpg',
     ],
 ];
